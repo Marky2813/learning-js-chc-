@@ -1,0 +1,6 @@
+here are the list of keyboard shortcuts, keep revising and using them:
+
+1. Terminal=ctrl+`
+2. Command Palette=ctrl+shft+p
+3. undo=ctrl+z
+4. redo=ctrl+Y
