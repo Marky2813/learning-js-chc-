@@ -44,13 +44,33 @@ console.log(changeB);
 let str1 = "hello"
 let str2 = " hitesh"
 console.log(str1+str2);
-console.log(1+"2");
-console.log("1"+2);
-console.log("1"+2+2);
-console.log(1+2+"3");
+console.log(1+"2");//12
+console.log("1"+2);//12
+console.log("1"+2+2);//122
+console.log(1+2+"3");//33
 
 /* 
 abh i know this gets really confusing so let us just understand this.
-so see the thing is thatl, such code is used only for questions and not in real life 
-life applications. the programming we will be doing will not include all this 
+so see the thing is that, such code is used only for questions and not in real life 
+life applications. the programming we will be doing will not include all this. and here 
+understand that if we use string first it considers others as string and if we use addition first
+then it first adds and then strings 
+*/
+
+
+/* postfix and prefix increment and decrement operators, post fix waale before the operation
+gives the value to the lhs and then increments, prefix waale first increments and then 
+transfer the value to the lhs*/
+
+
+// console.log("2">1);
+// console.log(2<1);
+// console.log(2==1);
+// console.log(2>=1);
+//these above are fairly simple but see the next one, that is where the things get interesting 
+
+console.log(null>0);//false
+console.log(null==0);//false 
+console.log(null>=0);//true 
+/* 
 */
