@@ -1,4 +1,4 @@
-"use strict" //this tells the compiler ot render the file using the new rules of js
+"use strict" //this tells the compiler ot render the file acc to the new version of js 
 
 // alert(3+3) this can only be done on browser, node will give error 
 //documentation you can use of mdn, ecma is of js original (tc39)
