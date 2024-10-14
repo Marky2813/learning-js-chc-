@@ -18,13 +18,13 @@ true=>1 and false->0
 
 let age = true 
 
-console.log(typeof age);
+console.log(typeof age);//boolean 
 
-let changeB = String(age)
+let changeB = String(age)  
 console.log(typeof changeB);
 console.log(changeB);
  /* if you take a number and then convert it to boolean, the output will be true unless the 
- number is anything less than zero. and if you convert string to boolean 
+ number is anything other than zero. and if you convert string to boolean 
  "" => 0
  "anything" => 1.
  similarly, we can convert boolean to string and even number to string 
@@ -54,7 +54,8 @@ abh i know this gets really confusing so let us just understand this.
 so see the thing is that, such code is used only for questions and not in real life 
 life applications. the programming we will be doing will not include all this. and here 
 understand that if we use string first it considers others as string and if we use addition first
-then it first adds and then strings 
+then it first adds and then strings. even if you try writing code like this, your code will not 
+even be considered for PRs
 */
 
 
@@ -72,5 +73,9 @@ transfer the value to the lhs*/
 console.log(null>0);//false
 console.log(null==0);//false 
 console.log(null>=0);//true 
-/* 
+/* comparison operators like <,>,<=, >= and == converts the values to same data type before 
+checking. but there are some special rules for using null with ==, null==0 is false as js has 
+rules which have assigned null==undefined as true.
+also note that === checks for the datatype to be same and then the value, so if datatype is 
+different then the value will be false 
 */
